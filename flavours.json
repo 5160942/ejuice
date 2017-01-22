@@ -2,8 +2,8 @@
   "molinberry": [
     {
     "title" : "Pinacolada",
-    "description" : "Malibu Pinacolada by Molin Berry. Molin berry flavours are imported from Poland. ",
-    "price" : ["10ml $10", "100ml $100"],
+    "description" : "Malibu Pinacolada by Molin Berry. Molin berry flavours are imported from Poland.",
+    "price" : ["VG:PG 7:3", "Nicotine 10mg" ,"10ml $10", "100ml $100"],
     "picture" : "molinberry_pinacolada.jpg",
     "productNumber" : "1",
     "company" : "Molinberry"
@@ -11,9 +11,9 @@
 
     {
     "title" : "Sweet Strawberry",
-    "description" : "Beloved by everyone. Sweet & juicy strawberry is attractive to vanilla cream, chocolate and many more. Produced in EU. ",
-    "price" : ["10ml $10", "100ml $100"],
-     "picture" : "molinberry_sweet_strawberry.jpg",
+    "description" : "Beloved by everyone. Sweet & juicy strawberry is attractive to vanilla cream, chocolate and many more. Produced in EU.",
+    "price" : ["VG:PG 7:3", "Nicotine 10mg" ,"10ml $10", "100ml $100"],
+    "picture" : "molinberry_sweet_strawberry.jpg",
     "productNumber" : "2",
     "company" : "Molinberry"
     }
@@ -21,36 +21,36 @@
     ,
     {
     "title" : "Apple",
-    "description" : "Delicious Banana fruit. Soft, gentle and very sweet.. ",
-    "price" : ["10ml $10", "100ml $100"],
-     "picture" : "molinberry_apple.jpg",
+    "description" : "Eden Apple by Molin Berry. Molin berry flavours are imported from Poland. Concentrated flavoring. Produced in EU.",
+    "price" : ["VG:PG 7:3", "Nicotine 10mg" ,"10ml $10", "100ml $100"],
+    "picture" : "molinberry_apple.jpg",
     "productNumber" : "3",
     "company" : "Molinberry"
     },
 
     {
     "title" : "Banana",
-    "description" : "Beloved by everyone. Sweet & juicy strawberry is attractive to vanilla cream, chocolate and many more. Produced in EU. ",
-    "price" : ["10ml $10", "100ml $100"],
-     "picture" : "molinberry_banana.jpg",
+    "description" : "Delicious Banana fruit. Soft, gentle and very sweet..Molin berry flavours are imported from Poland.",
+    "price" : ["VG:PG 7:3", "Nicotine 10mg" ,"10ml $10", "100ml $100"],
+    "picture" : "molinberry_banana.jpg",
     "productNumber" : "4",
     "company" : "Molinberry"
     },
 
     {
     "title" : "Orange",
-    "description" : "Beloved by everyone. Sweet & juicy strawberry is attractive to vanilla cream, chocolate and many more. Produced in EU. ",
-    "price" : ["10ml $10", "100ml $100"],
-     "picture" : "molinberry_orange.jpg",
+    "description" : "Juicy Orange by Molin Berry. Molin berry flavours are imported from Poland. Concentrated flavoring.",
+    "price" : ["VG:PG 7:3", "Nicotine 10mg" ,"10ml $10", "100ml $100"],
+    "picture" : "molinberry_orange.jpg",
     "productNumber" : "5",
     "company" : "Molinberry"
     },
 
     {
     "title" : "Black Berry",
-    "description" : "Beloved by everyone. Sweet & juicy strawberry is attractive to vanilla cream, chocolate and many more. Produced in EU. ",
-    "price" : ["10ml $10", "100ml $100"],
-     "picture" : "molinberry_blackberry.jpg",
+    "description" : "Dark Blackberry by Molin Berry. Molin berry flavours are imported from Poland. Concentrated flavoring. Produced in EU.",
+    "price" : ["VG:PG 7:3", "Nicotine 10mg" ,"10ml $10", "100ml $100"],
+    "picture" : "molinberry_blackberry.jpg",
     "productNumber" : "6",
     "company" : "Molinberry"
     }],
@@ -59,8 +59,8 @@
     {
     "title" : "Banana",
     "description" : "Banana by Flavorah. Smooth banana flavor. Great as a rich base for mixing with other flavors.",
-    "price" : ["10ml $10", "100ml $100"],
-     "picture" : "flavorah_banana.jpg",
+    "price" : ["VG:PG 7:3", "Nicotine 10mg" ,"10ml $10", "100ml $100"],
+    "picture" : "flavorah_banana.jpg",
     "productNumber" : "1",
     "company" : "Flavorah"
     }, 
@@ -68,8 +68,8 @@
     {
     "title" : "Butterscotch",
     "description" : "Butterscotch by Flavorah. Smooth rich butterscotch flavor. ",
-    "price" : ["10ml $10", "100ml $100"],
-     "picture" : "flavorah_butterscotch.jpg",
+    "price" : ["VG:PG 7:3", "Nicotine 10mg" ,"10ml $10", "100ml $100"],
+    "picture" : "flavorah_butterscotch.jpg",
     "productNumber" : "2",
     "company" : "Flavorah"
     },
@@ -77,8 +77,8 @@
     {
     "title" : "Cantaloupe",
     "description" : "Cantaloupe by Flavorah. Sweet realistic melon flavor.  ",
-    "price" : ["10ml $10", "100ml $100"],
-     "picture" : "flavorah_cantalopue.jpg",
+    "price" : ["VG:PG 7:3", "Nicotine 10mg" ,"10ml $10", "100ml $100"],
+    "picture" : "flavorah_cantalopue.jpg",
     "productNumber" : "3",
     "company" : "Flavorah"
     }
