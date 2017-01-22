@@ -2,11 +2,9 @@
 
 <h2><%= product.title %></h2>
 <hr>
-<div class="poster-wrapper">
-<div class="poster">
-<p><img src="/images/<%= product.picture %>"></p>
-</div>
-</div>
+    <div class="poster">
+        <img src="/images/<%= product.picture %>" class="img-responsive">
+    </div>
 <p><%= product.description %></p>
 <ul>
     <% for (var i = 0 ; i < product.price.length ; i++) { %>
