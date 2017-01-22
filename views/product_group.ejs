@@ -1,0 +1,16 @@
+<% include header.ejs %>
+<h1><%= flavours[1].company %></h1>
+<hr>
+
+<div id="posters-wrapper" class="content-padding clearfix"> 
+    <% for (var i = 0 ; i < flavours.length ; i++) { %>
+    <div class="poster">
+        <a href = "/<%= flavours[i].company %>/<%= i %>">
+        <img src="/images/<%= flavours[i].picture %>" class="img-responsive">
+        <p><%= flavours[i].title%><p>
+        </a>
+    </div>
+    <% } %>
+</div>
+
+<% include footer.ejs %>

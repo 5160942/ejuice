@@ -1,0 +1,31 @@
+<% include header.ejs %>
+   
+<div id = "hero-image">
+    <h1 id='hero-title'><%= title %></h1>
+</div>
+<h3>MOLINBERRY</h3>
+<div id="posters-wrapper" class="content-padding clearfix"> 
+    <% for (var i = 0 ; i < molinberry_flavours.length ; i++) { %>
+    <div class="poster">
+        <a href = "/molinberry/<%= i %>">
+        <img src="/images/<%= molinberry_flavours[i].picture %>" class="img-responsive">
+        <p><%= molinberry_flavours[i].title%><p>
+        </a>
+    </div>
+    <% } %>
+</div>
+<hr>
+<h3>FLAVORAH</h3>
+<div id="posters-wrapper" class="content-padding clearfix"> 
+    <% for (var i = 0 ; i < flavorah_flavours.length ; i++) { %>
+    <div class="poster">
+        <a href = "/flavorah/<%= i %>">
+        <img src="/images/<%= flavorah_flavours[i].picture %>" class="img-responsive">
+        <p><%= flavorah_flavours[i].title%><p>
+        </a>
+    </div>
+    <% } %>
+</div>
+
+<% include footer.ejs %>
+

@@ -1,0 +1,15 @@
+<% include header.ejs %>
+
+<h1><%= product.title %></h1>
+<hr>
+<div class="poster-wrapper">
+<p><img src="/images/<%= product.picture %>"</p>
+</div>
+<p><%= product.description %></p>
+<ul>
+    <% for (var i = 0 ; i < product.price.length ; i++) { %>
+        <li><%= product.price[i] %></li>
+   <% } %>
+</ul>
+
+<% include footer.ejs %>
