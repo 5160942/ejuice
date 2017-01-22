@@ -184,7 +184,6 @@ Media Queries / Responsive Styles
 
 	.poster {
 		width: 47%;
-		margin-bottom: 50px;
 	}
 
 	.poster:nth-child(2n) {
@@ -195,7 +194,7 @@ Media Queries / Responsive Styles
 
 /* Increase width of the company-title element on Movie-single pages to prevent text from stacking */
 @media (max-width: 1099px) {
-	#company-image-single #company-title {
+	#company-title {
 		font-size: 1.05em;
 		text-align: center;
 		width: 60%;
@@ -204,7 +203,7 @@ Media Queries / Responsive Styles
 	}
 }
 @media (max-width: 767px) {
-	#company-image-single #company-title, #company-image-notFound #company-title {
+	 #company-title, #company-image-notFound #company-title {
 		width: 75%;
 	}	
 }
@@ -226,21 +225,6 @@ Media Queries / Responsive Styles
 	}	
 }
 
-/* Move navigation to the left and prevent default styles on mobile devices */
-@media (max-width: 767px) {
-	.navbar-right {
-		float: left;
-	}
-	.navbar-right li {
-		display: inline-block;
-	}
-	.navbar-nav .open .dropdown-menu {
-		position: absolute;
-		margin-left: -100px;
-		background-color: rgba(0,0,0,0.5);
-	}
-	
-}
 
 /* Decrease font size and padding of poster overlay on mobile devices */
 @media (max-width: 767px) {
@@ -261,7 +245,7 @@ Media Queries / Responsive Styles
 
 /* Increase the width of the company title on very small devices */
 @media(max-width: 200px) {
-	#company-image-single #company-title, #company-image-notFound #company-title,
+	#company-title, #company-image-notFound #company-title,
 	#company-image #company-title {
 		width: 90%;
 		font-size: 0.95em;
