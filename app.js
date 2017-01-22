@@ -21,4 +21,4 @@ app.use('/molinberry', molinberryRoute);
 app.use('/flavorah', flavorahyRoute);
 app.use('*', fileNotFound);
 
-app.listen(3000, console.log("3000 listen"));
+app.listen(process.env.PORT || 3000);
