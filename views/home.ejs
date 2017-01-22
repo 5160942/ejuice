@@ -1,9 +1,10 @@
 <% include header.ejs %>
    
-<div id = "hero-image">
-    <h1 id='hero-title'><%= title %></h1>
+<div id = "company-image">
+    <h1 id='company-title'><%= title %></h1>
 </div>
-<h3>MOLINBERRY</h3>
+<hr>
+<center><h2 class="manufacturer">MOLINBERRY</h2></center>
 <div id="posters-wrapper" class="content-padding clearfix"> 
     <% for (var i = 0 ; i < molinberry_flavours.length ; i++) { %>
     <div class="poster">
@@ -15,7 +16,7 @@
     <% } %>
 </div>
 <hr>
-<h3>FLAVORAH</h3>
+<center><h2 class="manufacturer">FLAVORAH</h2><center>
 <div id="posters-wrapper" class="content-padding clearfix"> 
     <% for (var i = 0 ; i < flavorah_flavours.length ; i++) { %>
     <div class="poster">
