@@ -22,5 +22,5 @@ app.use('/flavorah', flavorahyRoute);
 app.use('*', fileNotFound);
 
 app.listen(process.env.PORT || 3000, function() {
-    console.log("port 3000 or env.PORT");
+    console.log("3000 or env.PORT");
 });
