@@ -16,6 +16,8 @@ var fileNotFound = require('./routes/fileNotFound');
 var molinberryRoute = require('./routes/molinberry');
 var flavorahyRoute = require('./routes/flavorah');
 
+//test merge
+
 app.use('/', homeRoute);
 app.use('/molinberry', molinberryRoute);
 app.use('/flavorah', flavorahyRoute);
